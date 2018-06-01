@@ -1,0 +1,8 @@
+feign:
+  hystrix:
+    enabled: true
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 9001
